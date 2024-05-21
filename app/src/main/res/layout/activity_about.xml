@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/alata"
+            android:gravity="center"
+            android:text="Who We Are"
+            android:textColor="@color/green"
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RideBook is a  platform that will ride you to the next level."
+            android:gravity="center"
+            android:fontFamily="@font/balsamiq_sans"
+            android:textColor="@color/black"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="12dp"
+            android:background="@color/black" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="      At RideBook, we're not just another mobile application; we're your passport to the next level of riding experiences. We understand the thrill of the open road, the camaraderie of fellow riders, and the need for convenience in planning your riding adventures. That's why we've crafted RideBook to be your ultimate companion for creating and discovering ride events like never before."
+            android:paddingStart="20dp"
+            android:paddingRight="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Menu"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/amiko"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="12dp"
+            android:background="@color/black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Our Mission:"
+            android:textColor="@color/green"
+            android:textSize="20dp"
+            android:fontFamily="@font/fredoka_one"
+            android:paddingTop="10dp"
+            android:paddingLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  Our mission is simple: to empower the riding community by providing a seamless, social media-inspired platform designed exclusively for riders. We believe that riding is more than just a hobby; it's a lifestyle, and we're here to enhance that lifestyle in every way possible."
+            android:fontFamily="@font/amiko"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:paddingStart="20dp"
+            android:paddingRight="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Menu"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/black" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="12dp"
+            android:background="@color/black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Key Features:"
+            android:textColor="@color/green"
+            android:textSize="20dp"
+            android:fontFamily="@font/fredoka_one"
+            android:paddingTop="10dp"
+            android:paddingLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  1.	Create and Discover Ride Events: "
+            android:fontFamily="@font/alata"
+            android:textColor="@color/green"
+            android:layout_marginTop="10dp"
+            android:paddingStart="20dp"
+            android:paddingRight="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="With RideBook, you can easily create and share your ride events with the community. Whether it's a scenic Sunday cruise, a thrilling off-road adventure, or a charity ride, our platform makes planning and promoting events a breeze."
+            android:fontFamily="@font/amiko"
+            android:textColor="@color/black"
+            android:paddingStart="60dp"
+            android:paddingRight="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" 2. Connect with Like-Minded Riders:  "
+            android:fontFamily="@font/alata"
+            android:textColor="@color/green"
+            android:layout_marginTop="10dp"
+            android:paddingStart="20dp"
+            android:paddingRight="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="We bring riders together. Connect with fellow enthusiasts who share your passion for two-wheel adventures. Build your own riding circle, exchange tips, and make lifelong friends who love the open road as much as you do."
+            android:fontFamily="@font/amiko"
+            android:textColor="@color/black"
+            android:paddingStart="60dp"
+            android:paddingRight="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" 3.	Plan Your Rides with Ease:   "
+            android:fontFamily="@font/alata"
+            android:textColor="@color/green"
+            android:layout_marginTop="10dp"
+            android:paddingStart="20dp"
+            android:paddingRight="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Our user-friendly interface lets you plan your rides with precision. Plot your routes, set meeting points, and keep all participants informed effortlessly. Say goodbye to the hassles of organizing rides via text or social media."
+            android:fontFamily="@font/amiko"
+            android:textColor="@color/black"
+            android:paddingStart="60dp"
+            android:paddingRight="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4.	Discover New Routes:    "
+            android:fontFamily="@font/alata"
+            android:textColor="@color/green"
+            android:layout_marginTop="10dp"
+            android:paddingStart="20dp"
+            android:paddingRight="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Explore a world of riding possibilities. Discover new routes, scenic spots, and hidden gems recommended by other riders in the community. We're your guide to unlocking new horizons."
+            android:fontFamily="@font/amiko"
+            android:textColor="@color/black"
+            android:paddingStart="60dp"
+            android:paddingRight="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5.	Stay Informed:     "
+            android:fontFamily="@font/alata"
+            android:textColor="@color/green"
+            android:layout_marginTop="10dp"
+            android:paddingStart="20dp"
+            android:paddingRight="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Never miss out on the latest updates, events, and ride recommendations. RideBook keeps you informed about upcoming rides, safety tips, and any changes in your planned events."
+            android:fontFamily="@font/amiko"
+            android:textColor="@color/black"
+            android:paddingStart="60dp"
+            android:paddingRight="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6.	Safety First:   "
+            android:fontFamily="@font/alata"
+            android:textColor="@color/green"
+            android:layout_marginTop="10dp"
+            android:paddingStart="20dp"
+            android:paddingRight="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your safety is our priority. We provide resources and guidelines for safe riding practices. You can also connect with experienced riders who can offer valuable advice and support."
+            android:fontFamily="@font/amiko"
+            android:textColor="@color/black"
+            android:paddingStart="60dp"
+            android:paddingRight="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/black" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="12dp"
+            android:background="@color/black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Join Us Today:"
+            android:textColor="@color/green"
+            android:textSize="20dp"
+            android:fontFamily="@font/fredoka_one"
+            android:paddingTop="10dp"
+            android:paddingLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  RideBook is not just an app; it's a community, a lifestyle, and a commitment to elevating your riding experience. Whether you're a seasoned rider or just starting your two-wheel journey, RideBook is your partner on the road to unforgettable adventures.
+So, what are you waiting for? Download RideBook today and rev up your riding experience like never before. Join the RideBook community and embark on the journey of a lifetime. It's time to ride to the next level!
+"
+            android:fontFamily="@font/amiko"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:paddingStart="20dp"
+            android:paddingRight="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Menu"/>
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

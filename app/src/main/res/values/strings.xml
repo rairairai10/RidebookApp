@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">RideBook</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="google_map_key" translatable="false">AIzaSyDC5AN8zo8XflAYeO83pDOEY5IQ71GqRPM</string>
+
+    <string-array name="places_array">
+        <item></item>
+        <item>Paoay Church</item>
+        <item>Subic Bay Freeport Zone</item>
+        <item>Sagada</item>
+        <item>Philippine Arena</item>
+        <item>Candaba Swamp</item>
+        <item>Mt. Arayat National Park</item>
+        <item>San Juan, La Union</item>
+        <item>Biak-na-Bato National Park</item>
+        <item>Malolos Heritage Town</item>
+        <item>Angat Rainforest and Eco Park</item>
+        <item>Subic</item>
+        <item>Intramuros</item>
+        <item>Baliuag Clock Tower</item>
+        <item>Pulilan Butterfly Haven</item>
+
+    </string-array>
+
+    <string-array name="Category">
+        <item>50cc - 100cc</item>
+        <item>125cc - 200cc</item>
+        <item>250cc - 300cc</item>
+        <item>350cc - 400cc</item>
+        <item>450cc - 500cc</item>
+        <item>1000cc - Above</item>
+
+
+    </string-array>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="terms_and_agreements"><u>Terms and Agreements</u></string>
+</resources>

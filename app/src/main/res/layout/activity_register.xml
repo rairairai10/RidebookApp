@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@color/white"
+    tools:context=".RegisterActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textview_register_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="Sign-up"
+                android:textSize="30sp"
+                android:textAlignment="center"
+                android:fontFamily="@font/fredoka_one"
+                android:textColor="@color/green" />
+
+            <TextView
+                android:id="@+id/textview_register_menu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Please register here to continue the \n amazing experience!"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:fontFamily="@font/fredoka_one"
+                android:textColor="@color/green" />
+
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/border">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:textColorHint="@color/green"
+                android:layout_centerVertical="true"
+                android:id="@+id/emailTIL">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/emailET"
+                    android:hint="Email"
+                    android:textColor="@color/green"
+                    android:background="@drawable/border"
+                    android:inputType="textEmailAddress"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </RelativeLayout>
+
+
+
+
+
+        <RelativeLayout
+            android:id="@+id/rl_license"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/border">
+
+
+            <TextView
+                android:id="@+id/textview_register_license"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="16dp"
+                android:text="Upload your License here* \n Reminder: Change the file name to your full name."
+                android:textColor="@color/green"
+                android:textSize="13sp" />
+
+            <View
+                android:id="@+id/divider_document4"
+                android:layout_width="350dp"
+                android:layout_height="1dp"
+                android:layout_below="@id/textview_register_license"
+                android:layout_centerHorizontal="true"
+                android:background="@color/gray" />
+
+
+
+            <Button
+                android:id="@+id/button_license"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_below="@id/divider_document4"
+                android:backgroundTint="@color/dark_green"
+                android:text="Driver's License"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textview_upload_license"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/button_license"
+                android:layout_marginEnd="30dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/border"
+                android:backgroundTint="@color/dark_green"
+                android:padding="6dp"
+                android:textColor="@color/white" />
+
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:id="@+id/rl_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/border">
+
+
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:id="@+id/passwordTIL"
+                android:textColorHint="@color/green"
+                app:passwordToggleEnabled="true">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/passwordET"
+                    android:hint="Password"
+                    android:textColor="@color/green"
+                    android:background="@drawable/border"
+                    android:inputType="textPassword"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/rl_confpassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/border">
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:textColorHint="@color/green"
+                android:id="@+id/confpasswordTIL"
+                app:passwordToggleEnabled="true">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/confpasswordET"
+                    android:hint="Confirm Password"
+                    android:background="@drawable/border"
+                    android:textColor="@color/green"
+                    android:inputType="textPassword"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </RelativeLayout>
+
+
+        <Button
+            android:id="@+id/registerBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Register"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/alata"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:backgroundTint="@color/dark_green"/>
+
+
+    </LinearLayout>
+
+
+
+
+
+</ScrollView>

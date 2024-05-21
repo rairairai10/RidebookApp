@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "852140382259",
+    "project_id": "ridebook-ca717",
+    "storage_bucket": "ridebook-ca717.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:852140382259:android:9178eafedccf2c832beb46",
+        "android_client_info": {
+          "package_name": "com.example.ridebook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "852140382259-uadvdtvdolh8unu7nplpn8coimbu41ra.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ridebook",
+            "certificate_hash": "d96cac615129340fe415f2f40d01fac7bd2d1f13"
+          }
+        },
+        {
+          "client_id": "852140382259-sdjb8k9gam22b6i523ch6i5p8dm2co6p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHXzzM9Hhtzgy7Wym7ZiuI8cEFVB1Vo4E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "852140382259-sdjb8k9gam22b6i523ch6i5p8dm2co6p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TermsAndConditionsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Terms and Agreements"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/fredoka_one"
+            android:textColor="@color/green" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ride Event Creation Application These Terms of Agreement (Agreement) govern your use of the Ride Event Creation Application (RideBook)."
+            android:gravity="center"
+            android:fontFamily="@font/balsamiq_sans"
+            android:textColor="@color/black"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="12dp"
+            android:background="@color/black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  1.	Eligibility: "
+            android:fontFamily="@font/alata"
+            android:textColor="@color/green"
+            android:layout_marginTop="10dp"
+            android:paddingStart="20dp"
+            android:paddingRight="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="You must be at least 18 years old or the legal age in your jurisdiction to use the Application. By using the Application, you represent and warrant that you meet these eligibility requirements."
+            android:fontFamily="@font/amiko"
+            android:textColor="@color/black"
+            android:paddingStart="60dp"
+            android:paddingRight="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  2.	Account Registration:  "
+            android:fontFamily="@font/alata"
+            android:textColor="@color/green"
+            android:layout_marginTop="10dp"
+            android:paddingStart="20dp"
+            android:paddingRight="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amiko"
+            android:textColor="@color/black"
+            android:paddingStart="60dp"
+            android:paddingRight="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:text="a. You must create an account to use the Application. "/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amiko"
+            android:textColor="@color/black"
+            android:paddingStart="60dp"
+            android:paddingRight="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:text="b. You are responsible for maintaining the confidentiality of your account credentials "/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amiko"
+            android:textColor="@color/black"
+            android:paddingStart="60dp"
+            android:paddingRight="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:text="c. You agree to provide accurate and up-to-date information during the registration process.  "/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  3. Event Creation:  "
+            android:fontFamily="@font/alata"
+            android:textColor="@color/green"
+            android:layout_marginTop="10dp"
+            android:paddingStart="20dp"
+            android:paddingRight="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amiko"
+            android:textColor="@color/black"
+            android:paddingStart="60dp"
+            android:paddingRight="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:text=" a. You may use the Application to create and manage ride events.  "/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amiko"
+            android:textColor="@color/black"
+            android:paddingStart="60dp"
+            android:paddingRight="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:text="b. You are responsible for the accuracy and completeness of event details. "/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amiko"
+            android:textColor="@color/black"
+            android:paddingStart="60dp"
+            android:paddingRight="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:text=" c. You must comply with all applicable laws and regulations when creating events.  "/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Event Participation:   "
+            android:fontFamily="@font/alata"
+            android:textColor="@color/green"
+            android:layout_marginTop="10dp"
+            android:paddingStart="20dp"
+            android:paddingRight="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amiko"
+            android:textColor="@color/black"
+            android:paddingStart="60dp"
+            android:paddingRight="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:text=" a. Users may register for and participate in events created through the Application.  "/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amiko"
+            android:textColor="@color/black"
+            android:paddingStart="60dp"
+            android:paddingRight="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:text="  b. Participants must follow event rules and instructions provided by the event organizer.  "/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amiko"
+            android:textColor="@color/black"
+            android:paddingStart="60dp"
+            android:paddingRight="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:text="c. Participants are responsible for their own safety during events.  "/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" 5. Content:  "
+            android:fontFamily="@font/alata"
+            android:textColor="@color/green"
+            android:layout_marginTop="10dp"
+            android:paddingStart="20dp"
+            android:paddingRight="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amiko"
+            android:textColor="@color/black"
+            android:paddingStart="60dp"
+            android:paddingRight="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:text="a. You are solely responsible for the content you create in the Application.  "/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amiko"
+            android:textColor="@color/black"
+            android:paddingStart="60dp"
+            android:paddingRight="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:text=" b. You grant the Company a non-exclusive, worldwide, royalty-free license to use, display, and distribute your content within the Application.  "/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amiko"
+            android:textColor="@color/black"
+            android:paddingStart="60dp"
+            android:paddingRight="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:text=" c. The Company reserves the right to remove or restrict access to content that violates these terms or applicable laws.   "/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" 6. Privacy: "
+            android:fontFamily="@font/alata"
+            android:textColor="@color/green"
+            android:layout_marginTop="10dp"
+            android:paddingStart="20dp"
+            android:paddingRight="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amiko"
+            android:textColor="@color/black"
+            android:paddingStart="60dp"
+            android:paddingRight="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:text="By using our services and voluntarily providing your license information, you acknowledge and agree that we adhere to the provisions of the Data Privacy Act of 2012 (Republic Act No. 10173), ensuring the responsible and lawful processing of your personal data for the purpose of identity verification and in strict compliance with applicable privacy laws."/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="7. Termination: "
+            android:fontFamily="@font/alata"
+            android:textColor="@color/green"
+            android:layout_marginTop="10dp"
+            android:paddingStart="20dp"
+            android:paddingRight="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amiko"
+            android:paddingStart="60dp"
+            android:paddingRight="10dp"
+            android:text="a. The Company reserves the right to terminate your access to the Application at any time for violations of these terms or for any other reason.   "
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amiko"
+            android:textColor="@color/black"
+            android:paddingStart="60dp"
+            android:paddingRight="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:text="b. You may request the deletion of your account by contacting the Company.  "/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="8. Disclaimers:"
+            android:fontFamily="@font/alata"
+            android:textColor="@color/green"
+            android:layout_marginTop="10dp"
+            android:paddingStart="20dp"
+            android:paddingRight="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amiko"
+            android:textColor="@color/black"
+            android:paddingStart="60dp"
+            android:paddingRight="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:text=" a. The Company is not responsible for the conduct of users or the accuracy of event information.  "/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amiko"
+            android:textColor="@color/black"
+            android:paddingStart="60dp"
+            android:paddingRight="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:text=" b. The Application is provided (as is) without warranties of any kind. "/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" 9. Limitation of Liability:  "
+            android:fontFamily="@font/alata"
+            android:textColor="@color/green"
+            android:layout_marginTop="10dp"
+            android:paddingStart="20dp"
+            android:paddingRight="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amiko"
+            android:textColor="@color/black"
+            android:paddingStart="60dp"
+            android:paddingRight="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:text="To the fullest extent permitted by law, the Company shall not be liable for any direct, indirect, incidental, special, consequential, or punitive damages arising out of or in connection with the use of the Application.  "/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" 10. Governing Law:    "
+            android:fontFamily="@font/alata"
+            android:textColor="@color/green"
+            android:layout_marginTop="10dp"
+            android:paddingStart="20dp"
+            android:paddingRight="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amiko"
+            android:textColor="@color/black"
+            android:paddingStart="60dp"
+            android:paddingRight="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:text=" This Agreement shall be governed by and construed in accordance with the laws of [Your Jurisdiction]. "/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" 11. Changes to Terms    "
+            android:fontFamily="@font/alata"
+            android:textColor="@color/green"
+            android:layout_marginTop="10dp"
+            android:paddingStart="20dp"
+            android:paddingRight="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amiko"
+            android:textColor="@color/black"
+            android:paddingStart="60dp"
+            android:paddingRight="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:text=" : The Company may update these terms from time to time. You will be notified of any changes, and continued use of the Application constitutes acceptance of the updated terms. By using the Application, you acknowledge that you have read, understood, and agreed to these Terms of Agreement. If you do not agree with any part of these terms, please refrain from using the Application. "/>
+
+    </LinearLayout>
+</ScrollView>

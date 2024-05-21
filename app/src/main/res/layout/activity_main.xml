@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="@color/white"
+        android:padding="15dp">
+
+
+        <ImageView
+            android:id="@+id/imageview_logo"
+            android:layout_width="500dp"
+            android:layout_height="250dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/front" />
+
+        <TextView
+            android:id="@+id/textview_app_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageview_logo"
+            android:layout_marginTop="-40dp"
+            android:fontFamily="@font/fredoka_one"
+            android:text="RIDEBOOK"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:textColor="@color/green"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textview_main_head"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textview_app_name"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/balsamiq_sans"
+            android:text="Welcome to Ridebook App."
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Menu"
+            android:textColor="@color/green"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/login_btn"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textview_main_head"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="@color/dark_green"
+            android:fontFamily="@font/alata"
+            android:text="Login"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textview_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/login_btn"
+            android:layout_marginTop="19dp"
+            android:fontFamily="@font/amiko"
+            android:text="Do not have an account?"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textview_register_link"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textview_register"
+            android:text="Register"
+            android:textAlignment="center"
+            android:textColor="@color/black" />
+
+        <CheckBox
+            android:id="@+id/checkboxterms"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_below="@id/textview_register_link"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/green"/>
+
+        <TextView
+            android:id="@+id/textview_register_Terms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textview_register_link"
+            android:text="@string/terms_and_agreements"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="23dp"
+            android:layout_toEndOf="@id/checkboxterms"
+            android:textColor="@color/green" />
+
+
+    </RelativeLayout>
+    
+
+
+</ScrollView>

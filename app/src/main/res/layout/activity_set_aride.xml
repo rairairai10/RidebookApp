@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        tools:context=".SetARideActivity"
+        android:backgroundTint="@color/white">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/textview_register_menu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:fontFamily="@font/balsamiq_sans"
+                    android:text="You can set the ride \n event here!"
+                    android:textAlignment="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                    android:textColor="@color/green"
+                    android:textSize="28dp" />
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="-50dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/border"
+                android:padding="15dp">
+
+                <ImageView
+                    android:id="@+id/ImageViewName"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/mplace"/>
+
+                <TextView
+                    android:id="@+id/textview_meetingplace"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/ImageViewName"
+                    android:fontFamily="@font/amiko"
+                    android:text="Meeting Place"
+                    android:textColor="@color/green"
+                    android:textSize="17dp" />
+
+                <View
+                    android:id="@+id/divider_name"
+                    android:layout_width="220dp"
+                    android:layout_height="1dp"
+                    android:layout_below="@id/textview_meetingplace"
+                    android:layout_centerHorizontal="true"
+                    android:background="@android:color/darker_gray" />
+
+                <EditText
+                    android:id="@+id/edit_place"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textview_meetingplace"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_toEndOf="@id/ImageViewName"
+                    android:fontFamily="@font/amiko"
+                    android:hint="Trademark"
+                    android:padding="6dp"
+                    android:textColor="@color/green"
+                    android:textColorHint="@color/green"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:id="@+id/ImageViewDate"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="100dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/date1"/>
+
+                <Button
+                    android:id="@+id/selectDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/edit_place"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="23dp"
+                    android:layout_toEndOf="@id/ImageViewDate"
+                    android:backgroundTint="@color/dark_green"
+                    android:fontFamily="@font/alata"
+                    android:text="Select Date"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/ImageViewTime"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_below="@id/ImageViewDate"
+                    android:src="@drawable/time1"/>
+
+                <Button
+                    android:id="@+id/SelectTime"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/selectDate"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="@color/dark_green"
+                    android:layout_toEndOf="@id/ImageViewTime"
+                    android:fontFamily="@font/alata"
+                    android:text="Select Time"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/ImageViewDestination"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_below="@id/ImageViewTime"
+                    android:src="@drawable/destination"/>
+
+
+                <Spinner
+                    android:id="@+id/places_spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/SelectTime"
+                    android:layout_marginTop="20dp"
+                    android:layout_toEndOf="@id/ImageViewDestination"
+                    android:background="@drawable/spinner_border"
+                    android:backgroundTint="@color/dark_green"
+                    android:entries="@array/places_array"
+                    android:padding="10dp" />
+
+                <ImageView
+                    android:id="@+id/ImageViewCategory"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_below="@id/ImageViewDestination"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="15dp"
+                    android:src="@drawable/cc" />
+
+                <Spinner
+                    android:id="@+id/places_spinner2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/places_spinner"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toEndOf="@id/ImageViewDestination"
+                    android:background="@drawable/spinner_border"
+                    android:backgroundTint="@color/dark_green"
+                    android:entries="@array/Category"
+                    android:padding="10dp" />
+
+                <Button
+                    android:id="@+id/set"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/places_spinner2"
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginRight="70dp"
+                    android:backgroundTint="@color/dark_green"
+                    android:fontFamily="@font/alata"
+                    android:text="SET"
+                    android:textColor="@color/white" />
+
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

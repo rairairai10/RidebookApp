@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PrivacyActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Privacy and Policy"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/fredoka_one"
+            android:textColor="@color/green" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Privacy Policy for Ride Event Creation Application This Privacy Policy (Policy) outlines how we collects, uses, shares, and protects personal information when you use the Ride Event Creation Application (RideBook). Please read this Policy carefully to understand our practices regarding your personal data"
+            android:gravity="center"
+            android:fontFamily="@font/balsamiq_sans"
+            android:textColor="@color/gray"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="12dp"
+            android:background="@color/gray" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   1. Information We Collect  "
+            android:fontFamily="@font/alata"
+            android:textColor="@color/green"
+            android:layout_marginTop="10dp"
+            android:paddingStart="20dp"
+            android:paddingRight="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="a. Account Information: When you create an account, we collect your name, email address, and password. "
+            android:fontFamily="@font/amiko"
+            android:textColor="@color/gray"
+            android:paddingStart="60dp"
+            android:paddingRight="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amiko"
+            android:text="b. Profile Information: You may choose to provide additional information, such as your profile picture and location. "
+            android:textColor="@color/gray"
+            android:paddingStart="60dp"
+            android:paddingRight="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="c. Event Information: When you create or participate in events, we collect event details, including location, date, time, and descriptions.  "
+            android:fontFamily="@font/amiko"
+            android:textColor="@color/gray"
+            android:paddingStart="60dp"
+            android:paddingRight="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="d. Communication: We may collect information from your communications with us, including customer support inquiries and feedback."
+            android:fontFamily="@font/amiko"
+            android:textColor="@color/gray"
+            android:paddingStart="60dp"
+            android:paddingRight="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" e. Device Information: We collect information about your device, including its unique device identifier, IP address, browser type, and operating system. "
+            android:fontFamily="@font/amiko"
+            android:textColor="@color/gray"
+            android:paddingStart="60dp"
+            android:paddingRight="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  2. How We Use Your Information  "
+            android:fontFamily="@font/alata"
+            android:textColor="@color/green"
+            android:layout_marginTop="10dp"
+            android:paddingStart="20dp"
+            android:paddingRight="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" a. To Provide Services: We use your information to provide you with access to the Application, facilitate event creation and participation, and offer customer support. "
+            android:fontFamily="@font/amiko"
+            android:textColor="@color/gray"
+            android:paddingStart="60dp"
+            android:paddingRight="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amiko"
+            android:text=" b. Communication: We may use your contact information to send you updates, event reminders, and important notifications related to your use of the Application. "
+            android:textColor="@color/gray"
+            android:paddingStart="60dp"
+            android:paddingRight="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" c. Personalization: We may use your information to personalize your experience within the Application and recommend events based on your preferences.   "
+            android:fontFamily="@font/amiko"
+            android:textColor="@color/gray"
+            android:paddingStart="60dp"
+            android:paddingRight="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="d. Analytics: We gather data to analyze user behavior and improve the Application's functionality and user experience. "
+            android:fontFamily="@font/amiko"
+            android:textColor="@color/gray"
+            android:paddingStart="60dp"
+            android:paddingRight="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" e. Legal Compliance: We may use your information to comply with legal obligations or respond to law enforcement requests. "
+            android:fontFamily="@font/amiko"
+            android:textColor="@color/gray"
+            android:paddingStart="60dp"
+            android:paddingRight="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   3. Information Sharing "
+            android:fontFamily="@font/alata"
+            android:textColor="@color/green"
+            android:layout_marginTop="10dp"
+            android:paddingStart="20dp"
+            android:paddingRight="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  a. Public Events: Information related to events you create or participate in, such as event details and your profile name, may be visible to other users of the Application."
+            android:fontFamily="@font/amiko"
+            android:textColor="@color/gray"
+            android:paddingStart="60dp"
+            android:paddingRight="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amiko"
+            android:text=" b. Service Providers: We may share your information with third-party service providers who assist us in providing and improving the Application. "
+            android:textColor="@color/gray"
+            android:paddingStart="60dp"
+            android:paddingRight="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" c. Legal Requirements: We may disclose your information to comply with legal obligations, protect our rights, or respond to law enforcement requests."
+            android:fontFamily="@font/amiko"
+            android:textColor="@color/gray"
+            android:paddingStart="60dp"
+            android:paddingRight="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  4. Data Security "
+            android:fontFamily="@font/alata"
+            android:textColor="@color/green"
+            android:layout_marginTop="10dp"
+            android:paddingStart="20dp"
+            android:paddingRight="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amiko"
+            android:text="We implement security measures to protect your information from unauthorized access, disclosure, alteration, and destruction. However, please be aware that no data transmission or storage is completely secure, and we cannot guarantee the security of your information."
+            android:textColor="@color/gray"
+            android:paddingStart="60dp"
+            android:paddingRight="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  5. Data Retention  "
+            android:fontFamily="@font/alata"
+            android:textColor="@color/green"
+            android:layout_marginTop="10dp"
+            android:paddingStart="20dp"
+            android:paddingRight="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amiko"
+            android:text="We retain your personal information for as long as necessary to provide our services and fulfill the purposes outlined in this Policy. You may request the deletion of your account and data at any time."
+            android:textColor="@color/gray"
+            android:paddingStart="60dp"
+            android:paddingRight="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" 6. Your Rights  "
+            android:fontFamily="@font/alata"
+            android:textColor="@color/green"
+            android:layout_marginTop="10dp"
+            android:paddingStart="20dp"
+            android:paddingRight="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amiko"
+            android:text="You have the right to request access, correct, update, or delete your personal information. You may also have the right to object to the processing of your data or request its portability. To exercise these rights, please contact us using the information provided in Section 9."
+            android:textColor="@color/gray"
+            android:paddingStart="60dp"
+            android:paddingRight="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  7. Children's Privacy  "
+            android:fontFamily="@font/alata"
+            android:textColor="@color/green"
+            android:layout_marginTop="10dp"
+            android:paddingStart="20dp"
+            android:paddingRight="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amiko"
+            android:text="The Application is not intended for use by underage individuals. We do not knowingly collect or maintain personal information from children under 13. If we become aware of such information, we will take steps to delete it. "
+            android:textColor="@color/gray"
+            android:paddingStart="60dp"
+            android:paddingRight="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" 8. Changes to this Privacy Policy   "
+            android:fontFamily="@font/alata"
+            android:textColor="@color/green"
+            android:layout_marginTop="10dp"
+            android:paddingStart="20dp"
+            android:paddingRight="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amiko"
+            android:text="We may update this Policy to reflect changes in our practices or legal requirements. We will notify you of any material changes, and the updated Policy will be effective upon posting. "
+            android:textColor="@color/gray"
+            android:paddingStart="60dp"
+            android:paddingRight="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" 9. Contact Information   "
+            android:fontFamily="@font/alata"
+            android:textColor="@color/green"
+            android:layout_marginTop="10dp"
+            android:paddingStart="20dp"
+            android:paddingRight="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amiko"
+            android:text="If you have questions or concerns about this Privacy Policy or our data practices, please contact us at [Your Contact Information]. By using the Application, you consent to the collection, use, and sharing of your information as described in this Privacy Policy."
+            android:textColor="@color/gray"
+            android:paddingStart="60dp"
+            android:paddingRight="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>
